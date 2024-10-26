@@ -1,5 +1,6 @@
 package entities;
 
+
 public class Zoo {
 
     public static final int NUMBER_OF_CAGES = 25;
@@ -105,6 +106,6 @@ public class Zoo {
 
     @Override
     public String toString() {
-        return "Name: " + name + ", City: " + city + ", N° Cages: " + NUMBER_OF_CAGES + " N° animals: " + nbrAnimals;
+        return "Zoo{ Name: " + name + ", City: " + city + ", N° Cages: " + NUMBER_OF_CAGES + " N° animals: " + nbrAnimals + "}";
     }
 }
